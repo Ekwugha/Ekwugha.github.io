@@ -1,0 +1,85 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background: #f9f9f9;
+    }
+html{
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)) 
+    ,url(images/home-bg.jpg)center/cover no-repeat;
+}
+.height{
+    min-height : 100vh;
+}
+.preloader{
+    display: none;
+}
+/* .fixed-top{
+    background-color: #ffffff;
+    display: none;
+} */
+.nav{
+    border: none;
+    transition: all 0.3s linear;
+}
+.navbar-toggler:hover{
+    transform: rotate(90deg);
+}
+.nav:focus{
+    border: none;
+    outline: none;
+}
+#about,#pricing{
+    background-color: whitesmoke;
+}
+.testimonial-picture{
+    background: url(images/testimonial-image.jpg)center/cover no-repeat;
+}
+.height-65{
+    min-height: 65vh;
+}
+.d-block{
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.card{
+    border: none;
+}
+.card{
+    border-right: 2px solid #f0f0f0;
+}
+.register{
+    border-radius: 50px;
+    width: 150px;
+    background: #29ca8e;
+    border: none;
+}
+.register:hover{
+    background: #000000;
+    transition: 0.5s 0.2s;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 3px solid #f0f0f0;
+}
+#button{
+    border-radius: 500px;
+}
+#button:hover{
+    border: none;
+    background: #29ca8e;
+}
+.form-control:focus{
+    border-bottom-color: #202020;
+    box-shadow: none;
+    box-shadow:  rgba(0,0,0,.075);
+}
